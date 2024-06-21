@@ -1,4 +1,5 @@
 To run the json-server: npm run json-server
+
 ![image](https://github.com/annelorecomnoiu/google-keep/assets/94176638/d9bb7e1a-7a8d-45f0-94c8-be3595ab876c)
 
 # Keep Notes
