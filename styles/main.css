@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.article-container {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform(0.2s ease-in-out);
+    list-style-type: none;
+}
+
+.title-container, 
+.description-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.add-todo-svg,
+.color-todo-svg,
+.delete-todo-svg {
+    position: absolute;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.add-todo-svg {
+    position: relative;
+    width: 40px;
+    margin-bottom: 5%;
+    background: radial-gradient(circle, #4c0072, #a26cb3);
+    border: 1px solid #62277f;
+    color: white;  
+}
+
+.color-todo-svg {
+    top: 100%;
+    right: -5%;
+    transform: translateY(-50%);
+    width: 9%;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);;
+    border: 1px solid #242426;
+}
+
+.delete-todo-svg {
+    top: -5px;
+    right: -5px; 
+    width: 1em; 
+    height: 1em;
+    background-color: #bf484a;
+    border: 1px solid #242426;
+}
