@@ -1,4 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Mxt6HUnx)
+![image](https://github.com/annelorecomnoiu/google-keep/assets/94176638/d9bb7e1a-7a8d-45f0-94c8-be3595ab876c)
+
 # Keep Notes
 A very light Google keep clone.
 
